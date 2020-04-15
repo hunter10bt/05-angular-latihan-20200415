@@ -2,6 +2,7 @@
 <p>
   This is a practice page.
 </p>
-<input [(ngModel)]="base" type="text" placeholder="base">**
-<input [(ngModel)]="power" type="text" placeholder="power">=
-{{a^b}}
+<input keyup = "setbase($event)" type="text" placeholder = "base">**
+<input keyup = "setpower($event)"type="text" placeholder = "power">=
+{{result}}
+<p>{{pattern}}</p>
