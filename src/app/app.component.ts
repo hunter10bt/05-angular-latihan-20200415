@@ -34,7 +34,7 @@ export class AppComponent  {
         for (var char = 0; char < line; char++){
           this.pattern = this.pattern.concat("*");
         }
-        this.pattern = this.pattern.concat("A");
+        this.pattern = this.pattern.concat("\n");
       }
     }
     else {
@@ -52,8 +52,10 @@ export class AppComponent  {
           }
         }
         lim2++;
-        this.pattern = this.pattern.concat("A");
+        this.pattern = this.pattern.concat("\n");
       }
     }
+    console.log(this.pattern)
+
   }
 }
