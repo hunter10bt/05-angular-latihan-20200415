@@ -2,7 +2,7 @@
 <p>
   This is a practice page.
 </p>
-<input keyup = "setbase($event)" type="text" placeholder = "base">**
-<input keyup = "setpower($event)"type="text" placeholder = "power">=
+<input (keyup)="setbase($event)" type="text" placeholder = "base">**
+<input (keyup)="setpower($event)" type="text" placeholder = "power">=
 {{result}}
 <p>{{pattern}}</p>
